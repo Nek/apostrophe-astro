@@ -3,7 +3,7 @@ const { title, bodyClass, lang } = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang={ lang }>
+<html lang={ lang } transition:animate="none">
   <head>
     <slot name="startHead" />
     <title>{ title }</title>
